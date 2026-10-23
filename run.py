@@ -15,7 +15,7 @@ xalif_main = getattr(xalif_core, "main", None)
 
 if not callable(xalif_main):
     raise SystemExit(
-        "XALIF ERROR: main() function not found in secendd>
+        "XALIF ERROR: main() function not found in protected_core"
     )
 
 xalif_result = xalif_main()
